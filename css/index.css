@@ -1,0 +1,1137 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	/* 	position: relative;
+	top: -10px; */
+
+}
+
+li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.head {
+	width: 100%;
+	height: 50px;
+	/* 	position: relative; */
+	/* position: fixed; */
+	background-color: #000000;
+	display: flex;
+	flex-direction: row;
+	z-index: 1000;
+	/* 	top: -70px; */
+}
+
+.headHoverSty {
+	background-color: white;
+}
+
+.logo {
+	/* position:absolute; */
+	margin-left: 60px;
+/* 	background-color: pink; */
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+
+}
+
+#logostyle {
+	text-align: center;
+}
+
+.toplist {
+	width: 1200px;
+	height: 200px;
+	/* background-color: #0077AA; */
+	/* position: absolute; */
+	margin-left: 50px;
+	display: inline-block;
+	/* top:0px; */
+	position: absolute;
+	left: 500px;
+} 
+
+.toplist>ul {
+	float: left;
+	margin-left: 50px;
+	/* 	overflow:hidden; */
+}
+#topelse{
+	font-size:5px ;
+	margin-top:30px;
+}
+#briefIntroduction{
+	/* background-color: #0052D9; */
+	padding: 10px 15px;
+	display: none;
+	position: relative;
+	left: -20px;
+	margin-right: 0px;
+}
+#vocationalWork{
+	padding: 10px 15px;
+	display: none;
+	position: relative;
+/* 	left: 0px;
+	margin-right: 0px; */
+/* 	background-color: #0052D9; */
+}
+
+
+.toplist>ul:hover #briefIntroduction {
+	display: block;
+}
+
+/* .head:hover #briefIntroduction {
+	display: block;
+} */
+.toplist>ul:hover #vocationalWork{
+	display: block;
+}
+#esg{
+	padding: 10px 15px;
+	display: none;
+	position: relative;
+}
+
+
+.toplist>ul:hover #esg {
+	display: block;
+}
+#inversor{
+	padding: 10px 15px;
+	display: none;
+	position: relative;
+}
+
+
+.toplist>ul:hover #inversor{
+	display: block;
+}
+#meila{
+	padding: 10px 15px;
+	display: none;
+	position: relative;
+}
+
+
+.toplist>ul:hover #meila{
+	display: block;
+}
+
+#outer {
+	width: 100%;
+	/* 	width:100%; */
+	height: 300px;
+	/* 	margin:10px auto; */
+	background-color: wheat;
+	overflow: hidden;
+}
+
+#imgList {
+	list-style: none;
+	width: 500%;
+	height: 300px;
+	position: relative;
+	right: 0%;
+	/* 放得下五张图片 所以width设置500% */
+}
+
+#imgList>li {
+	float: left;
+	/* margin-left: 10px; */
+	width: 20%;
+	height: 300px;
+	position: relative;
+	/* 	background-size: cover;
+	background-image: url(../img/01.jpg); */
+
+}
+
+#imgList>li img {
+	width: 100%;
+	height: 100%;
+}
+
+#nail {
+	position: absolute;
+	top: 230px;
+	left: 1300px;
+
+}
+
+#nail>a {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	margin-left: 5px;
+	opacity: 0.5;
+	float: left;
+
+
+}
+
+.word {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+
+}
+
+.arrow {
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	width: 200px;
+
+}
+
+.line {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	margin: auto;
+	top: 220px;
+	left: 200px;
+	z-index: 50
+}
+
+.dateShow1 {
+	width: 100%;
+	height: 420px;
+	/* 	background-color: yellow; */
+	position: relative;
+}
+
+.bigbox1 {
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+	background-color: white;
+	position: relative;
+
+
+}
+
+.box1 {
+	width: 600px;
+	height: 450px;
+	position: relative;
+	top: -30px;
+	left: 250px;
+	background-color: white;
+	transition: all, 0.5s;
+
+}
+
+.box1:hover {
+	margin-top: -10px;
+}
+
+.bigblock {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	/* 	top:250px; */
+	left: 0px;
+}
+
+.box1 img {
+	transition: all, 0.5s;
+}
+
+.box1 img:hover {
+	margin-top: 10px;
+	transform: scale(1.2);
+}
+
+.ceoName {
+	transition: all, 0.5s;
+}
+
+.bigblock h2:hover {
+	color: blue;
+}
+
+.static1 {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.box2 {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	margin-left: 20px;
+	left: 900px;
+	top: -32px;
+	background-color: #00A9CE;
+	transition: all, 0.5s;
+
+}
+
+.box2:hover {
+	margin-top: -10px;
+}
+
+/* .hlep {
+	transition: all, 0.5s;
+} */
+
+.static2 {
+	overflow: hidden;
+
+}
+
+.help {
+	transition: all, 0.5s;
+}
+
+.help:hover {
+	transform: scale(1.2);
+}
+
+/* 第四部分的样式 */
+.dateShow2 {
+	width: 100%;
+	height: 400px;
+}
+
+.bigbox2 {
+	/* background-color: #0086B3; */
+	height: 100%;
+	width: 1500px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+	justify-content: space-around;
+	width: 330px;
+	height: 400px;
+	background-color: white;
+	margin-left: 40px;
+	transition: all, 0.5s;
+
+}
+
+.photo1:hover,
+.photo2:hover,
+.photo3:hover {
+	margin-top: -8px;
+}
+
+.photo1 {
+	margin-left: 250px;
+	background-color: #0052D9;
+}
+
+.photo3 {
+	background-color: #D8D7DF;
+}
+
+.lion>img,
+.teen>img,
+.pay>img {
+	width: 100%;
+	transition: all, 0.5s;
+}
+
+.lion,
+.teen,
+.pay {
+	overflow: hidden;
+}
+
+.lion>img:hover,
+.teen>img:hover,
+.pay>img:hover {
+	transform: scale(1.1);
+}
+
+.tripWord {
+	width: 320px;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+
+.tripWord>h5 {
+	padding-top: 7px;
+}
+
+.teenWord {
+	margin-top: 20px;
+}
+
+.teenWord>h2 {
+	transition: all, 0.5s;
+	color: black;
+}
+
+.payWord>h2:hover {
+	color: blue;
+}
+
+.payWord {
+	margin-top: 20px;
+}
+
+.payWord>h2 {
+	transition: all, 0.5s;
+	color: black;
+}
+
+.payWord>h2:hover {
+	color: blue;
+}
+
+/* 从前面复制的 */
+.dateShow3 {
+	width: 100%;
+	height: 400px;
+	/* 	background-color: yellow; */
+	position: relative;
+}
+
+.bigbox3 {
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+	background-color: white;
+	position: relative;
+	margin-top: 18px;
+
+
+}
+
+.box3 {
+	width: 600px;
+	height: 450px;
+	position: relative;
+	top: 0px;
+	left: 250px;
+	background-color: white;
+	transition: all, 0.5s;
+
+}
+
+.box3:hover {
+	margin-top: -5px;
+}
+
+.speecher {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	/* 	top:250px; */
+	left: 0px;
+}
+
+.box3 img {
+	transition: all, 0.5s;
+}
+
+.box3 img:hover {
+	margin-top: 10px;
+	transform: scale(1.1);
+}
+
+.congrulate {
+	margin-top: 10px;
+}
+
+.congrulateTa {
+	transition: all, 0.5s;
+	margin-top: 10px;
+}
+
+.speecher h3:hover {
+	color: blue;
+}
+
+.static3 {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+/* 第二段数字特征复制的内容 */
+.box4 {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	margin-left: 20px;
+	left: 900px;
+	top: 0px;
+	background-color: #00A9CE;
+	transition: all, 0.5s;
+
+}
+
+.box4:hover {
+	margin-top: -5px;
+}
+
+.mathTypic {
+	transition: all, 0.5s;
+}
+
+.static4 {
+	overflow: hidden;
+
+}
+
+.mathTypic {
+	transition: all, 0.5s;
+}
+
+.mathTypic:hover {
+	transform: scale(1.1);
+}
+
+.sky {
+	margin-top: 22px;
+}
+
+.skyWord {
+	margin-top: 10px;
+}
+
+/* 第六段样式 */
+.dateShow5 {
+	width: 100%;
+	height: 360px;
+	/* 	background-color: yellow; */
+	position: relative;
+}
+
+.bigbox5 {
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+	background-color: white;
+	position: relative;
+	margin-top: 18px;
+
+}
+
+.box5 {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 250px;
+	overflow: hidden;
+	background-color: white;
+	transition: all 0.5s;
+}
+
+.reduceC {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	z-index: 6;
+	transition: all 0.5s;
+}
+
+.reduceCword1 {
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	width: 500px;
+}
+
+.reduceCword2 {
+	padding-top: 10px;
+
+}
+
+.blackDes {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	opacity: 0.5;
+	background-color: #000000;
+}
+
+.blackDes:hover~img {
+	transform: scale(1.1);
+}
+
+.box5:has(.blackDes:hover) {
+	margin-top: -5px;
+}
+
+.box6 {
+	width: 400px;
+	height: 315px;
+	position: absolute;
+	margin-left: 20px;
+	left: 900px;
+	top: 0px;
+	/* background-color: #00A9CE; */
+	transition: all, 0.5s;
+
+}
+
+.box6:hover {
+	margin-top: -5px;
+}
+
+/* .mathTypic{
+	transition: all,0.5s;
+} */
+.static6 {
+	overflow: hidden;
+
+}
+
+.dateShow6 {
+	/* 	background-color: green; */
+	width: 100%;
+	height: 260px;
+}
+
+.bigbox6 {
+	background-color: #60086B3;
+	height: 100%;
+	width: 1500px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.photo4,
+.photo5,
+.photo6 {
+	justify-content: space-around;
+	width: 352px;
+	height: 220px;
+	background-color: white;
+	margin-left: 18px;
+	transition: all, 0.5s;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.photo4 {
+	margin-left: 230px;
+	background-color: #0052D9;
+}
+
+.photo6 {
+	background-color: #D8D7DF;
+}
+
+.corporation>img,
+.culture>img,
+.workPlace>img {
+	width: 100%;
+	transition: all, 0.5s;
+}
+
+.photo4>img,
+.photo5>img,
+.photo6>img {
+	width: 100%;
+	transition: all, 0.5s;
+}
+
+/* .corporation>img:hover,
+.culture>img:hover,
+.workPlace>img:hover{
+	transform: scale(1.1);
+} */
+
+.blueDes1,
+.blueDes2,
+.blueDes3 {
+	/* justify-content: space-around; */
+	width: 352px;
+	height: 220px;
+	transition: all, 0.5s;
+	margin-left: 18px;
+	/* transition: all, 0.5s; */
+	position: absolute;
+	top: 0px;
+	left: -19px;
+	z-index: 999;
+}
+
+.blueDes1:hover,
+.blueDes2:hover,
+.blueDes3:hover {
+	background-color: #0000FF;
+	opacity: 0.6;
+}
+
+.blueDes3:hover~img {
+	transform: scale(1.1);
+}
+
+.blueDes2:hover~img {
+	transform: scale(1.1);
+}
+
+.blueDes1:hover~img {
+	transform: scale(1.1);
+}
+
+.corportationDes {
+	margin: auto;
+	height: 100%;
+	width: 180px;
+	text-align: center;
+
+}
+
+.show6Word {
+	padding-top: 80px;
+}
+
+/* 第八部分的黑色内容的样式 */
+.connectShow7 {
+	width: 100%;
+	height: 500px;
+	background-color: #000000;
+}
+
+.bigbox7 {
+	margin: 0 auto;
+	height: 100%;
+	width: 1500px;
+	position: relative;
+}
+
+.leftConnect {
+	display: flex;
+	width: 352px;
+	height: 400px;
+	/* 	background-color: palevioletred; */
+	margin-top: 90px;
+	margin-left: 221px;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+#left1,
+#eft2,
+#left3 {
+	width: 110%;
+	height: 100px;
+	/* 	background-color: red; */
+	margin-top: 22px;
+	margin-left: -10px;
+	justify-content: space-around;
+	transition: all, 0.5s;
+}
+
+#left1:hover,
+#left2:hover,
+#left3:hover {
+	margin-left: 0px;
+
+}
+
+#left1>span,
+#left2>span,
+#left3>span {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.connectShow {
+	/* background-color: #B3D4FC; */
+	width: 100%;
+	height: 700px;
+}
+
+/* 类似轮播图 */
+#rightConnectshow {
+	width: 750px;
+	height: 100%;
+	position: absolute;
+	left: 570px;
+	top: 0px;
+	/* background-color: #669900; */
+	overflow: hidden;
+}
+
+#manythingsConnect {
+	width: 2250px;
+	height: 100%;
+	/* background-color: #0052D9; */
+	overflow: hidden;
+	position: absolute;
+}
+
+#manythings {
+	display: flex;
+	width: 750px;
+	height: 100%;
+	flex-wrap: wrap;
+	float: left;
+}
+
+.social,
+.figContent,
+.moneyContent,
+.tool {
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.social>img,
+.figContent>img,
+.moneyContent>img,
+.tool>img {
+	width: 300px;
+	height: 200px;
+}
+
+/* 第二部分 */
+.advertisement,
+.tencentCloud {
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.smartIndustry{
+	width: 600px;
+	height: 200px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.advertisement>img,
+.tencentCloud>img {
+	width: 300px;
+	height: 200px;
+}
+.smartIndustry>img{
+	width: 600px;
+	height: 200px;
+}
+
+.smartIndustry .intelligence,
+.internetOfthings,
+.manyMedia,
+.founding {
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.intelligence>img,
+.internetOfthings>img,
+.manyMedia>img,
+.founding>img {
+	width: 300px;
+	height: 200px;
+}
+
+
+.bigbox8 {
+	height: 100%;
+	width: 1500px;
+	/* 	background-color: #008000; */
+	margin: 0 auto;
+	position: relative;
+}
+
+.outer2 {
+	width: 720px;
+	height: 620px;
+	/* float: left; */
+	/* 	background-color: #00A9CE; */
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+}
+
+#imgList2 {
+	width: 400%;
+	height: 100%;
+	position: relative;
+	/* background-color: #EAFFEA; */
+}
+
+#imgList2>li {
+	float: left;
+	/* position: absolute; */
+	width: 720px;
+	position: relative;
+}
+
+#imgList2>li>img {
+	width: 100%;
+	height: 620px;
+}
+
+#connectArrow {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	top: 580px;
+	left: 580px;
+
+}
+
+#leftArrow,
+#rightArrow {
+	font-size: 40px;
+}
+
+.connectWord {
+	position: absolute;
+	width: 600px;
+	height: 150px;
+	top: 500px;
+	left: 50px;
+}
+
+.connectWord>p {
+	padding-top: 10px;
+}
+
+.responseAndtrue {
+	width: 400px;
+	height: 150px;
+	/* 	background-color:pink; */
+	position: absolute;
+	top: 250px;
+	left: 780px;
+
+}
+
+#resArrow {
+	font-size: 60px;
+
+}
+
+.goodperAnddevelp {
+	width: 100%;
+	height: 100%;
+	background-color: #00A9CE;
+	overflow: hidden;
+	position: relative;
+}
+
+#develpShow {
+	width: 100%;
+	height: 100%;
+	background-color: navajowhite;
+	overflow: hidden;
+}
+
+#developList {
+	width: 303%;
+	white-space: nowrap;
+	position: relative;
+}
+
+#developList>li {
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	width: 33%;
+	list-style: none;
+	/* padding: 0px;
+	margin: 0px;
+	 */
+	*/
+}
+
+/* .lis1{
+	background-image: url(../img/develop01.jpg);
+	background-size: cover;
+} */
+/* .lis2{
+	background-image: url(../img/develop02%20.jpg);
+	background-size: cover;
+}
+.lis3{
+	background-image: url(../img/develop03.jpg);
+	background-size: cover;
+}
+ */
+#developList>li>img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+#developnail {
+	/* 	position: relative;px */
+	top: 700px;
+	right: 200px;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	/* background-color: red;
+} */
+}
+
+#developnail>span {
+	width: 30px;
+	height: 15px;
+	background-color: white;
+	margin-left: 20px;
+	opacity: 0.5;
+	float: left;
+
+}
+
+/* 最后一部分的样式 */
+
+.end {
+	width: 100%;
+	height: 80px;
+	/* background-color: #008000; */
+
+
+}
+
+.usMedia {
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+	background-color: white;
+	position: relative;
+
+}
+
+.endList {
+	width: 100%;
+	height: 300px;
+	/* background-color:red; */
+
+}
+
+.endBigbox {
+	width: 1500px;
+	height: 96%;
+	/* background-color: #0000FF; */
+	position: relative;
+	margin: auto;
+}
+
+.joinUS {
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+	/* left:200px; */
+}
+
+.jionUslist {
+	font-size: 30px;
+	/* padding-bottom: 40px; */
+}
+
+.jionUslist>li {
+	padding-top: 12px;
+	font-size: 20px;
+}
+
+/* 第二部分复制*/
+.comUS {
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+	left: 220px;
+}
+
+.comUslist {
+	font-size: 30px;
+	/* padding-bottom: 40px; */
+}
+
+.comUslist>li {
+	padding-top: 12px;
+	font-size: 20px;
+}
+
+/* 第三部分复制 */
+
+.lawUS {
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+	left: 420px;
+}
+
+.lawUslist {
+	font-size: 30px;
+	/* padding-bottom: 40px; */
+}
+
+.lawUslist>li {
+	padding-top: 12px;
+	font-size: 20px;
+}
+
+.endBoxleft {
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	left: 600px;
+	top: 100px;
+}
+
+.replenish {
+	width: 100%;
+	height: 200px;
+	/* background-color: #0052D9; */
+}
+
+.replenishBox {
+	height: 100%;
+	width: 1500px;
+	/* background-color: #008000; */
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.replenishWordlist>li {
+	float: left;
+	font-size: 20px;
+
+}
+
+.replenishWordlist {
+	padding-top: 50px;
+}
+
+.endCopy {
+	margin-top: 20px;
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	padding-top: 30px;
+}
